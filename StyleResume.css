@@ -15,7 +15,7 @@ body {
 .info-text {
   font-style: italic;
   font-weight: bold;
-  margin: 0;
+  margin-left: 40px;
 }
 
 .hobbi {
@@ -26,6 +26,11 @@ body {
   margin-bottom: 20px;
 }
 
+.hobbi li {
+  margin-bottom: 10px;
+  color: #000;
+}
+
 .work {
   background-color: aqua;
   border-radius: 40px;
@@ -33,15 +38,65 @@ body {
   margin-bottom: 20px;
 }
 
+.work td {
+  padding-bottom: 10px;
+  padding-right: 25px;
+}
+
+.work h3 {
+  margin-left: 300px;
+}
+
+.work td:nth-child(1),
+.work td:nth-child(2),
+.work td:nth-child(3) {
+  color: #86898f;
+}
+
 .feedback {
   background-color: yellowgreen;
   border-radius: 50px;
-  padding: 15px 200px;
-  margin-bottom: 20px;
+}
+
+.form {
+  margin-left: 50px;
+}
+
+.form h2 {
+  text-align: center;
 }
 
 .avatar {
-  width: 450px;
+  width: 375px;
   border-radius: 70px;
   box-shadow: 10px 10px 14px 8px rgba(0, 0, 0, 0.25);
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
+
+a:active {
+  color: blue;
+}
+
+a:hover {
+  color: green;
+  opacity: 0.5;
+  background-color: yellow;
+  border: 1px solid green;
+}
+
+.btn {
+  background: yellow;
+  padding: 15px;
+  color: red;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  opacity: 0.8;
 }
