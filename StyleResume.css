@@ -1,15 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 h1 {
-  color: violet;
+  color: #20b2aa;
 }
 
 body {
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
+  color: #0a0b0e;
+  background: #f1f1f1;
 }
 
 .info-text {
   font-style: italic;
+}
+
+.hobbi {
+  border: 3px dashed pink;
+  border-radius: 30px;
+  background-color: rgb(238, 139, 139);
+  padding-left: 20px;
+}
+
+.work {
+  background-color: aqua;
+  border-radius: 30px;
+  padding-left: 20px;
+}
+
+.feedback {
+  background-color: yellowgreen;
+  border-radius: 20px;
+  padding-left: 20px;
 }

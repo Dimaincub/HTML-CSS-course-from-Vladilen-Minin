@@ -15,14 +15,18 @@ body {
 }
 
 .html {
-  background: orange;
+  background: #f16529;
   color: white;
 }
 
 .css {
-  background: blue;
+  background: #2888ce;
   color: white;
 }
+
+/* .css h2 {
+  color: #3ed614;
+} */
 
 /* Id */
 #header {
