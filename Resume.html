@@ -9,85 +9,100 @@
   <meta name="keywords" content="html, resume">
   <title>Dmitry Resume</title>
   <link rel="stylesheet" href="StyleResume.css">
+
+  <style>
+    .container {
+      max-width: 750px;
+      margin: auto;
+      padding-top: 30px;
+    }
+
+    .info {
+      margin-bottom: 20px;
+    }
+  </style>
+
 </head>
 
 <body>
 
-  <div class="info">
-    <img src="https://worthly.com/wp-content/uploads/2015/06/Big-Head-Silicon.jpg" alt="Not my photo" width="300">
+  <div class="container">
+    <div class="info">
+      <img src="https://worthly.com/wp-content/uploads/2015/06/Big-Head-Silicon.jpg" alt="Not my photo" class="avatar">
 
-    <div class="info-text">
-      <h1>Dmitry Knyazev </h1>
+      <div class="info-text">
+        <h1>Dmitry Knyazev </h1>
 
-      <p>I am learning <strong> HTML!</strong></p>
-      <p>I love <em> music, dance and sing!</em></p>
-      <h3>List of my favorite sites:</h3>
-      <a href="https://www.youtube.com/" target="_blank">YouTube</a>
-      |
-      <a href="https://github.com/" target="_blank">GitHub</a>
-      |
-      <a href="https://www.codewars.com/" target="_blank">CodeWars</a>
-      |
-      <a href="https://www.freecodecamp.org/" target="_blank">FreeCodeCamp</a>
+        <p>I am learning <strong> HTML!</strong></p>
+        <p>I love <em> music, dance and sing!</em></p>
+        <h3>List of my favorite sites:</h3>
+        <a href="https://www.youtube.com/" target="_blank">YouTube</a>
+        |
+        <a href="https://github.com/" target="_blank">GitHub</a>
+        |
+        <a href="https://www.codewars.com/" target="_blank">CodeWars</a>
+        |
+        <a href="https://www.freecodecamp.org/" target="_blank">FreeCodeCamp</a>
+      </div>
     </div>
-  </div>
 
-  <br>
-  <div class="hobbi">
-    <h3>My hobbies:</h3>
-    <ul>
-      <li>Write codes</li>
-      <li>Basketball</li>
-      <li>Board games</li>
-    </ul>
-  </div>
-  <div class="work">
-    <h2>Work Experience:</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Position</th>
-          <th>Year</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Engineer</td>
-          <td>Design engineer</td>
-          <td>2017-2022</td>
-        </tr>
-        <tr>
-          <td>Frontend developer</td>
-          <td>Junior</td>
-          <td>2022-present time</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
+    <br>
+    <div class="hobbi">
+      <h3>My hobbies:</h3>
+      <ul>
+        <li>Write codes</li>
+        <li>Basketball</li>
+        <li>Board games</li>
+      </ul>
+    </div>
+    <div class="work">
+      <h2>Work Experience:</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Position</th>
+            <th>Year</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Engineer</td>
+            <td>Design engineer</td>
+            <td>2017-2022</td>
+          </tr>
+          <tr>
+            <td>Frontend developer</td>
+            <td>Junior</td>
+            <td>2022-present time</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
 
-  <div class="feedback">
-    <h2>Feedback form</h2>
-    <form>
-      <div>
-        <label for="text">Your name:</label>
-        <input type="text" placeholder="Enter name">
-      </div>
+    <div class="feedback">
+      <h2>Feedback form</h2>
+      <form>
+        <div>
+          <label for="text">Your name:</label>
+          <input type="text" placeholder="Enter name">
+        </div>
 
-      <div>
-        <label for="email">Your email:</label>
-        <input type="email" placeholder="Enter email">
-      </div>
+        <div>
+          <label for="email">Your email:</label>
+          <input type="email" placeholder="Enter email">
+        </div>
 
-      <div>
-        <label for="massage">Your massage:</label>
-        <br>
-        <textarea id="massage" cols="30" rows="3" placeholder="Enter massage ..."></textarea>
-      </div>
+        <div>
+          <label for="massage">Your massage:</label>
+          <br>
+          <textarea id="massage" cols="30" rows="3" placeholder="Enter massage ..."></textarea>
+        </div>
 
-      <button type="submit">Send</button>
+        <button type="submit">Send</button>
 
-    </form>
+      </form>
+    </div>
   </div>
 </body>
 
