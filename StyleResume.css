@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 h1 {
   color: violet;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+}
+
+.info-text {
+  font-style: italic;
 }
